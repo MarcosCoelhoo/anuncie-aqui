@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+  --primary-50: '#f9f5ff',
+  --primary-100: '#f0e7ff',
+  --primary-200: '#e3d3ff',
+  --primary-300: '#ceb0ff',
+  --primary-400: '#b07eff',
+  --primary-500: '#8b42ff',
+  --primary-600: '#7a2af3',
+  --primary-700: '#671ad6',
+  --primary-800: '#591aaf',
+  --primary-900: '#4a178c',
+  --primary-950: '#2f0269',
+
+  --secondary-50: '#fffee7',
+  --secondary-100: '#fffec1',
+  --secondary-200: '#fff886',
+  --secondary-300: '#ffec41',
+  --secondary-400: '#ffdb0d',
+  --secondary-500: '#ffcc00',
+  --secondary-600: '#d19500',
+  --secondary-700: '#a66a02',
+  --secondary-800: '#89530a',
+  --secondary-900: '#74430f',
+  --secondary-950: '#442304',
+
+  --yellow-gradient: linear-gradient(45deg, var(--secondary-400), var(--secondary-500))
+
+  --font-title: 'Figtree', sans-serif;
+  --font-text: 'Nunito Sans', sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
