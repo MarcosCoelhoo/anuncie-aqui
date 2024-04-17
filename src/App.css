@@ -37,6 +37,23 @@
   --bw-900: #3d3d3d;
   --bw-950: #292929;
 
+  --swiper-pagination-color: var(--secondary-500);
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: 8px;
+  --swiper-pagination-bottom: 16px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.25);
+  --swiper-pagination-progressbar-size: 4px;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: var(--primary-950);
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+
   --yellow-gradient: linear-gradient(to bottom, var(--secondary-400), var(--secondary-500));
 
   --font-title: 'Figtree', sans-serif;
@@ -61,4 +78,14 @@ li, ul {
 
 a {
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+main {
+  max-width: 80rem;
+  margin: 0 auto;
 }

@@ -11,9 +11,9 @@ const Header = () => {
         </a>
 
         <nav className={styles.nav}>
-          <a href="#" className={styles.link}>
+          {/* <a href="#" className={styles.link}>
             Sobre nós
-          </a>
+          </a> */}
 
           <a href="#" className={styles.buttonAd}>
             <h2>Anuncie agora</h2>
