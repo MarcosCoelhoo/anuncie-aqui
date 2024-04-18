@@ -1,17 +1,22 @@
 import './App.css';
 import Header from './components/Header/Header';
-import Outdoor from './components/Outdoor/Outdoor';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './components/Home/Home';
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
 
       <main>
-        <Outdoor />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
       </main>
     </>
   );
-}
+};
 
 export default App;
