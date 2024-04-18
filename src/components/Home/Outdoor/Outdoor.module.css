@@ -3,7 +3,6 @@
 }
 
 .outdoor {
-  border: 1px solid red;
   display: flex;
   /* width: max-content; */
   gap: 2rem;
