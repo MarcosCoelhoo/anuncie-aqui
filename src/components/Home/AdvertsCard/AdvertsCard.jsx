@@ -32,7 +32,7 @@ const AdvertsCard = ({ data }) => {
 
         <div className={styles.buttons}>
           <a href="#" className={`${styles.btnWhatsapp} ${styles.button}`}>
-            <i class="ph ph-whatsapp-logo"></i>
+            <i className="ph ph-whatsapp-logo"></i>
             <p>WhatsApp</p>
           </a>
 

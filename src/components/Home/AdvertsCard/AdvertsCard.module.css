@@ -85,6 +85,12 @@
   border-radius: 4px;
   gap: 4px;
   color: var(--bw-50);
+
+  transition: box-shadow .3s ease-in-out;
+}
+
+.btnWhatsapp:hover {
+  box-shadow: inset 200px 0 0 0 var(--primary-700);
 }
 
 .btnWhatsapp i {

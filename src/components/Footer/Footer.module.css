@@ -33,7 +33,7 @@
   gap: 12px;
 }
 
-.social {
+.social i {
   font-size: 24px;
   color: var(--secondary-500);
 }
