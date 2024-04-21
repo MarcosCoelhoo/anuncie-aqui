@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './AdvertsCard.module.css';
+import { Link } from 'react-router-dom';
 
 const AdvertsCard = ({ data }) => {
   return (
@@ -35,10 +36,12 @@ const AdvertsCard = ({ data }) => {
             <i className="ph ph-whatsapp-logo"></i>
             <p>WhatsApp</p>
           </a>
-
-          <a href="#" className={`${styles.btnMoreInfo} ${styles.button}`}>
+          <Link
+            to={`/more-info/${data.id}`}
+            className={`${styles.btnMoreInfo} ${styles.button}`}
+          >
             <p>Mais informações</p>
-          </a>
+          </Link>
         </div>
       </div>
     </li>

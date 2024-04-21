@@ -11,8 +11,8 @@ const Adverts = () => {
           <h1 className={styles.headerTitle}>Anúncios Recentes</h1>
 
           <ul className={styles.listCards}>
-            {dataCards.map((info, index) => (
-              <AdvertsCard key={index} data={info} />
+            {dataCards.map((info) => (
+              <AdvertsCard key={info.id} data={info} />
             ))}
           </ul>
         </div>

@@ -1,5 +1,6 @@
 [
   {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
     "title": "Loja de Roupas Moda",
     "description": "Oferecemos a melhor seleção de moda para todos os gostos. Venha nos visitar e descubra a moda que você merece.",
     "address": "Rua das Flores, 123",
@@ -9,9 +10,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["moda", "fashion", "roupas", "estilo"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174001",
     "title": "Café da Manhã",
     "description": "Desfrute de nossos deliciosos cafés da manhã e lanches. Temos uma variedade de opções para todos os gostos.",
     "address": "Avenida Central, 456",
@@ -21,9 +24,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["café", "lanches", "manhã", "desjejum"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174002",
     "title": "Pet Shop Feliz",
     "description": "Oferecemos uma ampla gama de produtos para animais de estimação, desde alimentos até acessórios. Venha nos visitar e descubra como cuidar do seu melhor amigo.",
     "address": "Travessa dos Animais, 789",
@@ -33,9 +38,16 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": [
+      "animais de estimação",
+      "pet shop",
+      "cuidados com animais",
+      "acessórios para animais"
+    ]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174003",
     "title": "Livraria do Saber",
     "description": "Uma livraria repleta de livros de todos os gêneros e idades. Venha nos visitar e descubra novos mundos através de nossas páginas.",
     "address": "Rua dos Livros, 1011",
@@ -45,9 +57,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["livros", "leitura", "gêneros literários", "educacional"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174004",
     "title": "Barbearia do Zé",
     "description": "Oferecemos cortes de cabelo de alta qualidade para todos os gostos. Venha nos visitar e deixe-se cuidar como um rei.",
     "address": "Rua das Barbas, 1213",
@@ -57,9 +71,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["barbearia", "cortes de cabelo", "beleza", "estética"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174005",
     "title": "Padaria do João",
     "description": "A melhor padaria da cidade, com pães fresquinhos e deliciosos doces. Venha nos visitar e saborie.",
     "address": "Avenida dos Pães, 1415",
@@ -69,9 +85,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["padaria", "pães", "doçaria", "fresquinhos"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174006",
     "title": "Farmácia do Maria",
     "description": "Oferecemos uma ampla gama de medicamentos e produtos de higiene. Venha nos visitar e cuide da sua saúde.",
     "address": "Rua das Farmácias, 1617",
@@ -81,9 +99,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["farmácia", "medicamentos", "higiene", "cuidados com a saúde"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174007",
     "title": "Loja de Música",
     "description": "Aqui você encontra tudo sobre música, desde instrumentos até CDs e vinis. Venha nos visitar e descubra sua próxima paixão musical.",
     "address": "Avenida das Músicas, 1819",
@@ -93,9 +113,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["música", "instrumentos", "CDs", "vinis"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174008",
     "title": "Biblioteca Municipal",
     "description": "Um espaço dedicado ao conhecimento, com uma vasta coleção de livros e recursos educacionais. Venha nos visitar e aprofunde-se em novos temas.",
     "address": "Rua das Bibliotecas, 2021",
@@ -105,9 +127,11 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["biblioteca", "livros", "educacional", "conhecimento"]
   },
   {
+    "id": "123e4567-e89b-12d3-a456-426614174009",
     "title": "Loja de Eletrônicos",
     "description": "Oferecemos uma ampla gama de eletrônicos, desde smartphones até TVs. Venha nos visitar e descubra a tecnologia que você precisa.",
     "address": "Avenida dos Eletrônicos, 2223",
@@ -117,6 +141,7 @@
       "facebook": "https://www.instagram.com/markonha_/",
       "whatsapp": "https://www.instagram.com/markonha_/",
       "twitter": "https://www.instagram.com/markonha_/"
-    }
+    },
+    "tags": ["eletrônicos", "smartphones", "TVs", "tecnologia"]
   }
 ]
