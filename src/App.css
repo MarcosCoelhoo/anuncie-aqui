@@ -70,6 +70,11 @@
 body {
   background: var(--bw-50);
   font-family: var(--font-text);
+  position: relative;
+
+  background-image: url('./assets/detail-bg.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 li, ul {

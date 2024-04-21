@@ -17,13 +17,19 @@ const Footer = () => {
 
           <ul className={styles.socials}>
             <li className={styles.social}>
-              <i class="ph ph-whatsapp-logo"></i>
+              <a href="#">
+                <i className="ph ph-whatsapp-logo"></i>
+              </a>
             </li>
             <li className={styles.social}>
-              <i class="ph ph-facebook-logo"></i>
+              <a href="#">
+                <i className="ph ph-facebook-logo"></i>
+              </a>
             </li>
             <li className={styles.social}>
-              <i class="ph ph-instagram-logo"></i>
+              <a href="#">
+                <i className="ph ph-instagram-logo"></i>
+              </a>
             </li>
           </ul>
         </div>
