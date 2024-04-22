@@ -4,6 +4,10 @@
   /* margin-bottom: 10rem; */
 }
 
+/* .background {
+  height: 400px;
+} */
+
 .background img {
   border-radius: 12px;
 }
@@ -35,6 +39,8 @@
   /* border: 1px solid red; */
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
   /* margin-bottom: 1rem; */
   /* position: absolute; */
 }

@@ -1,8 +1,12 @@
 import React from 'react';
 import styles from './HeroSection.module.css';
 import backgroundImg from '../../../assets/background-pattern.svg';
+import { AdScreenContext } from '../../../contexts/AdScreenContext';
 
 const HeroSection = () => {
+  const { dataAd } = React.useContext(AdScreenContext);
+
+  if (!dataAd) return null;
   return (
     <section className={styles.container}>
       <div className={styles.heroSection}>
@@ -19,18 +23,11 @@ const HeroSection = () => {
           </div>
 
           <ul className={styles.tags}>
-            <li className={styles.tag}>
-              <p>Markonha</p>
-            </li>
-            <li className={styles.tag}>
-              <p>Futebol</p>
-            </li>
-            <li className={styles.tag}>
-              <p>Roupas</p>
-            </li>
-            <li className={styles.tag}>
-              <p>Society</p>
-            </li>
+            {dataAd.tags.map((tag, index) => (
+              <li key={index} className={styles.tag}>
+                <p>{tag}</p>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
