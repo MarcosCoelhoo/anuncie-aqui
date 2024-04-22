@@ -1,13 +1,20 @@
 import React from 'react';
 import styles from './Content.module.css';
+import data from '../../../../data.json';
+import { useParams } from 'react-router-dom';
+import { AdScreenContext } from '../../../contexts/AdScreenContext';
 
 const Content = () => {
+  const { dataAd } = React.useContext(AdScreenContext);
+  console.log(dataAd);
+
+  if (!dataAd) return null;
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.info}>
+        <div className={styles.infoContainer}>
           <div className={styles.titleBox}>
-            <h1>Circuito C4 Bol</h1>
+            <h1>{dataAd.title}</h1>
 
             <ul className={styles.socials}>
               <li className={styles.social}>
@@ -28,13 +35,19 @@ const Content = () => {
             </ul>
           </div>
 
-          <p className={styles.description}>
-            Lorem ipsum dolor sit amet consectetur. Egestas risus nulla luctus
-            at duis adipiscing dictumst facilisi nibh. Blandit bibendum
-            tincidunt aenean quam vestibulum. Morbi nisi ultricies elit lorem
-            eros tellus venenatis quis felis. Diam faucibus lectus mauris
-            scelerisque tortor.
-          </p>
+          <p className={styles.description}>{dataAd.description}</p>
+        </div>
+
+        <div className={styles.info}>
+          <div className={styles.infoData}>
+            <i className="ph-bold ph-phone"></i>
+            <p>{dataAd.phone}</p>
+          </div>
+
+          <div className={styles.infoData}>
+            <i className="ph-bold ph-map-pin"></i>
+            <p>{dataAd.address}</p>
+          </div>
         </div>
 
         <a href="#" className={styles.buttonCTA}>
