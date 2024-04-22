@@ -2,9 +2,9 @@
   /* border: 1px solid red; */
   max-width: 22rem;
   background: var(--bw-50);
-  box-shadow: 0px 3px 6px 0 rgba(0, 0, 16, .16), 0px 3px 6px 0 rgba(0, 0, 16, .23);
   border-radius: 8px;
   flex: 1;
+  box-shadow: var(--shadow);
 }
 
 .cardContent {
