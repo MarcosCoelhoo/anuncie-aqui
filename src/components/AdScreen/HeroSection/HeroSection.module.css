@@ -112,7 +112,7 @@
    }
 
    .tags .tag {
-    font-size: .75rem;
+    font-size: .5rem;
     padding: 2px 8px;
    }
 
@@ -132,7 +132,7 @@
   @keyframes animePopup {
     100% {
       opacity: 1;
-      top: -130%;
+      top: -170%;
     }
   }
 }
