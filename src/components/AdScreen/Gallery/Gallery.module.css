@@ -14,13 +14,12 @@
 
 .images {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 
 .image {
-  flex: 1;
+  width: 100%;
 }
 
 .image img {
@@ -30,5 +29,9 @@
 @media (max-width: 700px) {
   .container {
     padding: 2.5rem 24px;
+  }
+
+  .images {
+    flex-direction: column;
   }
 }
