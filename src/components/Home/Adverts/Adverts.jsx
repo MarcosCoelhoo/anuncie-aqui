@@ -8,7 +8,7 @@ const Adverts = () => {
     <section className={styles.container}>
       <div className={styles.adverts}>
         <div className={styles.header}>
-          <h1 className={styles.headerTitle}>Anúncios Recentes</h1>
+          <h1 className="headerTitle">Anúncios Recentes</h1>
 
           <ul className={styles.listCards}>
             {dataCards.map((info) => (

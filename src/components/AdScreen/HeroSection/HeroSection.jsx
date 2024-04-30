@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './HeroSection.module.css';
 import backgroundImg from '../../../assets/background-pattern.svg';
 import { AdScreenContext } from '../../../contexts/AdScreenContext';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   const { dataAd } = React.useContext(AdScreenContext);
@@ -22,10 +23,10 @@ const HeroSection = () => {
             />
           </div>
 
-          <ul className={styles.tags}>
+          <ul className="tagsList">
             {dataAd.tags.map((tag, index) => (
-              <li key={index} className={styles.tag}>
-                <p>{tag}</p>
+              <li key={index} className="tagItem">
+                <Link to={`/search?tag=${tag}`}>{tag}</Link>
               </li>
             ))}
           </ul>
