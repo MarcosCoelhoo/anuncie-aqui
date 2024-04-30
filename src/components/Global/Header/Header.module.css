@@ -38,6 +38,11 @@
   font-size: 1.25rem;
   color: var(--bw-100);
   font-weight: 600;
+  transition: color .3s ease-in-out;
+}
+
+.nav .link:hover {
+  color: var(--secondary-500);
 }
 
 .nav .buttonAd {

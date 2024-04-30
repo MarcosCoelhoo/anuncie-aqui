@@ -84,8 +84,7 @@
   padding: 4px 12px;
   border-radius: 4px;
   gap: 4px;
-  color: var(--bw-50);
-
+  
   transition: box-shadow .3s ease-in-out;
 }
 
@@ -94,10 +93,12 @@
 }
 
 .btnWhatsapp i {
+  color: var(--bw-50);
   font-size: 24px;
 }
 
 .btnWhatsapp p {
+  color: var(--bw-50);
   font-size: 1.25rem;
 }
 

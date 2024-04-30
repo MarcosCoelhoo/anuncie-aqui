@@ -9,6 +9,7 @@ const Gallery = () => {
           <img
             src="https://fakeimg.pl/1119x300/863CFF/909090?text=Banner"
             alt=""
+            loading="lazy"
           />
         </div>
 
@@ -18,6 +19,7 @@ const Gallery = () => {
               className={styles.establishmentImg}
               src="https://fakeimg.pl/352x300/863CFF/ffcc00?text=Imagem"
               alt=""
+              loading="lazy"
             />
           </li>
           <li className={styles.image}>
@@ -25,6 +27,7 @@ const Gallery = () => {
               className={styles.establishmentImg}
               src="https://fakeimg.pl/352x300/863CFF/ffcc00?text=Imagem"
               alt=""
+              loading="lazy"
             />
           </li>
           <li className={styles.image}>
@@ -32,6 +35,7 @@ const Gallery = () => {
               className={styles.establishmentImg}
               src="https://fakeimg.pl/352x300/863CFF/ffcc00?text=Imagem"
               alt=""
+              loading="lazy"
             />
           </li>
         </ul>

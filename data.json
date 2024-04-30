@@ -143,5 +143,146 @@
       "twitter": "https://www.instagram.com/markonha_/"
     },
     "tags": ["eletrônicos", "smartphones", "TVs", "tecnologia"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174010",
+    "title": "Salão de Beleza Bella",
+    "description": "Venha experimentar nossos serviços de beleza, desde cortes de cabelo até tratamentos faciais. Deixe-nos cuidar de você!",
+    "address": "Rua da Beleza, 2324",
+    "phone": "91 1111-1112",
+    "social": {
+      "instagram": "https://www.instagram.com/bellasalao_/",
+      "facebook": "https://www.facebook.com/bellasalao/",
+      "whatsapp": "https://wa.me/911111112",
+      "twitter": "https://twitter.com/bellasalao_"
+    },
+    "tags": [
+      "beleza",
+      "salão de beleza",
+      "cuidados com o cabelo",
+      "tratamentos faciais"
+    ]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174011",
+    "title": "Restaurante Sabor & Arte",
+    "description": "Experimente nossa deliciosa culinária artesanal, preparada com ingredientes frescos e de qualidade. Uma experiência gastronômica única!",
+    "address": "Avenida Gastronômica, 2526",
+    "phone": "91 2222-2223",
+    "social": {
+      "instagram": "https://www.instagram.com/saborearte_restaurante/",
+      "facebook": "https://www.facebook.com/saborearte/",
+      "whatsapp": "https://wa.me/912222223",
+      "twitter": "https://twitter.com/saborearte_rest"
+    },
+    "tags": ["alimentação", "restaurante", "culinária artesanal", "gastronomia"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174012",
+    "title": "Pet Hotel Aconchego",
+    "description": "Proporcionamos conforto e cuidado para seu animal de estimação enquanto você está ausente. Seu amigo merece o melhor!",
+    "address": "Rua dos Animais, 2627",
+    "phone": "91 3333-3334",
+    "social": {
+      "instagram": "https://www.instagram.com/pethotel_aconchego/",
+      "facebook": "https://www.facebook.com/pethotel.aconchego/",
+      "whatsapp": "https://wa.me/913333334",
+      "twitter": "https://twitter.com/pethotel_ac"
+    },
+    "tags": [
+      "animais",
+      "pet hotel",
+      "cuidados com animais",
+      "hospedagem para pets"
+    ]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174013",
+    "title": "Escola de Idiomas Global",
+    "description": "Aprenda idiomas de forma dinâmica e eficaz com nossos cursos personalizados. Expandir seus horizontes nunca foi tão fácil!",
+    "address": "Rua dos Idiomas, 2829",
+    "phone": "91 4444-4445",
+    "social": {
+      "instagram": "https://www.instagram.com/escolaidiomas_global/",
+      "facebook": "https://www.facebook.com/globalidiomas/",
+      "whatsapp": "https://wa.me/914444445",
+      "twitter": "https://twitter.com/globalidiomas_"
+    },
+    "tags": ["educacional", "idiomas", "cursos de idiomas", "aprendizado"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174014",
+    "title": "Cafeteria Aroma",
+    "description": "Desfrute de uma variedade de cafés especiais e deliciosos petiscos em um ambiente aconchegante. Uma pausa perfeita no seu dia!",
+    "address": "Rua dos Cafés, 2930",
+    "phone": "91 5555-5556",
+    "social": {
+      "instagram": "https://www.instagram.com/cafeteriaaroma/",
+      "facebook": "https://www.facebook.com/cafeteriaaroma/",
+      "whatsapp": "https://wa.me/915555556",
+      "twitter": "https://twitter.com/cafeteriaaroma_"
+    },
+    "tags": ["alimentação", "cafeteria", "cafés especiais", "petiscos"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174015",
+    "title": "Clínica de Bem-Estar Integral",
+    "description": "Promovemos o equilíbrio físico, mental e emocional através de terapias holísticas e cuidados personalizados. Cuide de você!",
+    "address": "Avenida do Bem-Estar, 3031",
+    "phone": "91 6666-6667",
+    "social": {
+      "instagram": "https://www.instagram.com/clinicabemestarintegral/",
+      "facebook": "https://www.facebook.com/clinicabemestarintegral/",
+      "whatsapp": "https://wa.me/916666667",
+      "twitter": "https://twitter.com/clinicabemestar_"
+    },
+    "tags": ["saúde", "bem-estar", "terapias holísticas", "cuidados pessoais"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174016",
+    "title": "Parque de Diversões Fantástico",
+    "description": "Divirta-se em nossas atrações emocionantes e garantimos risadas e momentos inesquecíveis para toda a família!",
+    "address": "Rua da Diversão, 3132",
+    "phone": "91 7777-7778",
+    "social": {
+      "instagram": "https://www.instagram.com/parquediversoesfantastico/",
+      "facebook": "https://www.facebook.com/parquediversoesfantastico/",
+      "whatsapp": "https://wa.me/917777778",
+      "twitter": "https://twitter.com/parquediversoes_"
+    },
+    "tags": [
+      "entretenimento",
+      "parque de diversões",
+      "atrações familiares",
+      "diversão"
+    ]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174017",
+    "title": "Escola de Artes Criativas",
+    "description": "Explore sua criatividade e desenvolva suas habilidades artísticas em um ambiente inspirador e educacional. Onde a arte ganha vida!",
+    "address": "Avenida das Artes, 3233",
+    "phone": "91 8888-8889",
+    "social": {
+      "instagram": "https://www.instagram.com/escolartescriativas/",
+      "facebook": "https://www.facebook.com/escolartescriativas/",
+      "whatsapp": "https://wa.me/918888889",
+      "twitter": "https://twitter.com/escolartes_"
+    },
+    "tags": ["educacional", "artes", "cursos de arte", "criatividade"]
+  },
+  {
+    "id": "123e4567-e89b-12d3-a456-426614174018",
+    "title": "Loja de Games & Tecnologia",
+    "description": "Explore o mundo dos jogos e da tecnologia com nossa seleção de consoles, acessórios e gadgets. Seu universo digital começa aqui!",
+    "address": "Rua dos Games, 3334",
+    "phone": "91 9999-9990",
+    "social": {
+      "instagram": "https://www.instagram.com/gametech_loja/",
+      "facebook": "https://www.facebook.com/gametechloja/",
+      "whatsapp": "https://wa.me/919999990",
+      "twitter": "https://twitter.com/gametech_"
+    },
+    "tags": ["tecnologia", "games", "consoles", "gadgets"]
   }
 ]
