@@ -79,6 +79,7 @@ body {
   background-image: url('./assets/detail-bg.svg');
   background-repeat: no-repeat;
   background-position: top left;
+  overflow-x: hidden;
 }
 
 li, ul {
@@ -105,10 +106,6 @@ main {
   height: 100%;
 }
 
-/* .mainContainer {
-  padding: 0 5rem;
-} */
-
 .headerTitle {
   font-family: var(--font-title);
   color: var(--primary-700);
@@ -123,16 +120,14 @@ main {
   display: inline-block;
   background: url('./assets/detail-logo.svg') no-repeat center;
   background-size: cover;
+  margin-right: 8px;
 }
 
 .tagsList {
-  /* border: 1px solid red; */
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin-bottom: 1rem; */
-  /* position: absolute; */
 }
 
 .tagsList .tagItem {

@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './Adverts.module.css';
 import AdvertsCard from '../AdvertsCard/AdvertsCard';
-import dataCards from '../../../../data.json';
+// import dataCards from '../../../../data.json';
+import dataCards from '../../../../dataOficial.json';
 
 const Adverts = () => {
   return (

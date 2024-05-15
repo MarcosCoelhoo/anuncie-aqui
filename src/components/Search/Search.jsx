@@ -49,7 +49,7 @@ const Search = () => {
           {!tagSearch ? 'Todos os anúncios' : `Pesquisa por "${tagSearch}"`}
         </h1>
 
-        <div className={styles.tagsContainer}>
+        {/* <div className={styles.tagsContainer}>
           <ul className={`tagsList ${styles.list}`}>
             {dataTags.map((tag, index) => (
               <li key={index} className={`tagItem ${styles.list}`}>
@@ -57,7 +57,7 @@ const Search = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </header>
 
       <ul className={styles.listCards}>

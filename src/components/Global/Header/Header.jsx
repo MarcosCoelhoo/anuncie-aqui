@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Header.module.css';
 import logoImage from '../../../assets/logo.svg';
-import { Link } from 'react-router-dom';
+import CategoriesModal from './CategoriesModal';
 
 const Header = () => {
   const [isScroll, setIsScroll] = React.useState(false);
+  const [isCategoriesOpen, setIsCategoriesOpen] = React.useState(false);
 
   React.useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -29,14 +30,27 @@ const Header = () => {
           <img src={logoImage} alt="Logo Anuncie Aqui" />
         </a>
 
-        <nav className={styles.nav}>
-          <a href="/search" className={styles.link}>
-            Todos os anúncios
-          </a>
+        <nav className={styles.navContainer}>
+          <ul className={styles.navList}>
+            <li className={styles.link}>
+              <p onClick={() => setIsCategoriesOpen(true)}>Ver categorias</p>
 
-          <a href="/" className={styles.buttonAd}>
-            <h2>Anuncie agora</h2>
-          </a>
+              <CategoriesModal
+                isOpen={isCategoriesOpen}
+                setIsOpen={setIsCategoriesOpen}
+              />
+            </li>
+
+            <li className={styles.link}>
+              <a href="/search">Todos os anúncios</a>
+            </li>
+
+            <li className={styles.buttonAd}>
+              <a href="/">
+                <h2>Anuncie agora</h2>
+              </a>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
