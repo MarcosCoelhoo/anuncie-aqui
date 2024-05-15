@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Marcio Ferragens",
+    "description": "Aqui você encontra tudo para sua construção! Faça seu orçamento direto pelo whatsapp.",
+    "address": "AV. XV de Novembro, 1410",
+    "phone": "91 99143-2691",
+    "buttonCTA": {
+      "label": "Orçamentos",
+      "url": "https://wa.me/5591991432691?text=Ol%C3%A1%2C+vi+seu+seu+empreendimento+no+Anuncie+Aqui.+"
+    },
+    "tags": ["material de construção"]
+  },
+  {
+    "id": "2",
+    "title": "Cesar Leitão – Móveis Sob Encomendas",
+    "description": "Deixe seu ambiente de jeito gosto, faça seu orçamento direto pelo whatsapp.",
+    "address": "Artêmio Araújo, Marapira",
+    "phone": "91 99153-7538",
+    "buttonCTA": {
+      "label": "Orçamentos",
+      "url": "https://wa.me/5591991537538?text=Ol%C3%A1%2C+vi+seu+seu+empreendimento+no+Anuncie+Aqui.+"
+    },
+    "tags": ["decoração"]
+  },
+  {
+    "id": "3",
+    "title": "Carvalho & Oliveira Contabilidade",
+    "description": "Deixe suas contas em dias! Faça seu orçamento direto pelo whatsapp.",
+    "address": "Rua Pref. Artemio Araujo, Marapira.",
+    "phone": "91 99146-8914 | 99108-2895",
+    "buttonCTA": {
+      "label": "Faça seu orçamento",
+      "url": "https://wa.me/5591991468914?text=Ol%C3%A1%2C+vi+seu+seu+empreendimento+no+Anuncie+Aqui.+"
+    },
+    "tags": ["contabilidade"]
+  }
+]

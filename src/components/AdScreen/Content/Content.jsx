@@ -1,7 +1,5 @@
 import React from 'react';
 import styles from './Content.module.css';
-import data from '../../../../data.json';
-import { useParams } from 'react-router-dom';
 import { AdScreenContext } from '../../../contexts/AdScreenContext';
 
 const Content = () => {
@@ -16,7 +14,7 @@ const Content = () => {
           <div className={styles.titleBox}>
             <h1>{dataAd.title}</h1>
 
-            <ul className={styles.socials}>
+            {/* <ul className={styles.socials}>
               <li className={styles.social}>
                 <a href="#">
                   <i className="ph ph-whatsapp-logo"></i>
@@ -32,7 +30,7 @@ const Content = () => {
                   <i className="ph ph-instagram-logo"></i>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <p className={styles.description}>{dataAd.description}</p>
@@ -50,8 +48,12 @@ const Content = () => {
           </div>
         </div>
 
-        <a href="#" className={styles.buttonCTA}>
-          Agende seu horário
+        <a
+          href={dataAd.buttonCTA.url}
+          target="_blank"
+          className={styles.buttonCTA}
+        >
+          {dataAd.buttonCTA.label}
         </a>
       </div>
     </section>
